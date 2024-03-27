@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const uri = "mongodb://localhost:27017/InventoryManagementSystem";
+const uri = "mongodb+srv://kalai:kalai@cluster0.fx3auzt.mongodb.net/";
 
 function main() {
     mongoose.connect(uri).then(() => {
