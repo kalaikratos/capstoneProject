@@ -30,7 +30,7 @@ addStoreModalSetting,
   const cancelButtonRef = useRef(null);
 
   const addStore = () => {
-    fetch("http://localhost:4000/api/store/add", {
+    fetch("https://capstoneproject-ya86.onrender.com/api/store/add", {
       method: "POST",
       headers: {
         "Content-type": "application/json",

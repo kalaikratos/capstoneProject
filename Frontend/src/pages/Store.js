@@ -16,7 +16,7 @@ function Store() {
 
   // Fetching all stores data
   const fetchStoresData = () => {
-    fetch(`http://localhost:4000/api/store/get/${authContext.user}`)
+    fetch(`https://capstoneproject-ya86.onrender.com/api/store/get/${authContext.user}`)
       
       .then((response) => response.json())
       .then((data) => {

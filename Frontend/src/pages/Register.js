@@ -21,7 +21,7 @@ function Register() {
 
   // Register User
   const registerUser = () => {
-    fetch("http://localhost:4000/api/register", {
+    fetch("https://capstoneproject-ya86.onrender.com/api/register", {
       method: "POST",
       headers: {
         "Content-type": "application/json",
@@ -176,7 +176,7 @@ function Register() {
           </form>
         </div>
         <div className="flex justify-center order-first sm:order-last">
-          <img src={require("../assets/Login.png")} alt="" />
+          {/*<img src={require("../assets/Login.png")} alt="" />*/}
         </div>
       </div>
     </>
